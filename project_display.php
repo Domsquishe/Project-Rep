@@ -54,7 +54,7 @@
     
     var xmlhttp = new XMLHttpRequest();
     var entered_location = "<?php echo $address; ?>";
-    var url = "https://maps.googleapis.com/maps/api/geocode/json?address="$address1"&key=AIzaSyBN5Q_GVvi5ONp6lwgmIlWG72NKtZUB9pU";
+    var url = "https://maps.googleapis.com/maps/api/geocode/json?address=".$address1."&key=AIzaSyBN5Q_GVvi5ONp6lwgmIlWG72NKtZUB9pU";
     xmlhttp.onreadystatechange = function() {
         if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
             var myArr = JSON.parse(xmlhttp.responseText);
