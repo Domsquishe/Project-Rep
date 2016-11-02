@@ -53,7 +53,7 @@
 var geocoder;
 var map;
 
-  ////////////// INITIALISE MAP + GEOCODER \\\\\\\\\\\\\\\\\\\
+  ////////////// INITIALISE MAP \\\\\\\\\\\\\\\\\\\
   
 function initialise() 
   {
@@ -81,7 +81,7 @@ function initialise()
     }
     
 
-///////////////////// GEOCODE+CREATE MAP \\\\\\\\\\\\\\\\\\\\\\
+///////////////////// GEOCODE \\\\\\\\\\\\\\\\\\\\\\
   
 function geocode(addresses, i, latlist, lnglist, f, lati, lngi, locat) 
   {
