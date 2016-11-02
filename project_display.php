@@ -73,6 +73,7 @@ function initialise()
     for (i = 0; i <= address_count; i++)
       {
         longlat[i] = geocode(addresses,i)
+          //SHOWS AS UNDEFINED WHEN CONSOLE.LOG(LONGLAT)
       }
     
     //var center = longlat[0] - longlat[1].lati;
