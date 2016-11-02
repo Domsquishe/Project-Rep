@@ -97,6 +97,8 @@ function geocode(addresses, i, latlist, lnglist, f, lati, lngi, locat)
         
         var latlng = {lati, lngi};
         console.log(latlng);
+          
+        //HERE THE LONGITUDE AND LATITUDE ARE RETURNED AS AN OBJECT
         return latlng;
       }
       else 
